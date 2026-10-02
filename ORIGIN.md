@@ -1,5 +1,7 @@
 # Origin and implementation scope
 
+The new independent implementation is authored by **dhtfish98** (package version **0.1.2**). Upstream works retain their original attribution and license notices in this document and `UPSTREAM_LICENSE`.
+
 JksTrustStoreReview independently implements this selected scope: Bounded JKS v2 public truststore inventory, Java modified UTF-8 decoding, certificate parsing and validity/CA/key policy, with explicit externally pinned file digest.
 
 The research source is [kurtbrose/pyjks](https://github.com/kurtbrose/pyjks) at fixed commit `0a046e54337a0c271ef5f7fdd9aa79c5ad350486`. Source archive SHA-256: `f44bed4f728a35c8dbfe85f9d2f9b1db9b12e24481006da6c9944a5fa269f666`. Its license is MIT; the exact source license notice is retained as `UPSTREAM_LICENSE`. The new application code and documentation are licensed under MIT (`LICENSE`). The upstream application is neither imported nor executed by the production package. No upstream application source is bundled in the production package.

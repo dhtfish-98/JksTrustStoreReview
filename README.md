@@ -1,5 +1,7 @@
 # JksTrustStoreReview
 
+New implementation author: **dhtfish98**. Package version: **0.1.2**.
+
 Bounded JKS v2 public truststore inventory, Java modified UTF-8 decoding, certificate parsing and validity/CA/key policy, with explicit externally pinned file digest.
 
 This is an independently implemented, complete selected offline input profile. It is not an equivalent rewrite of the entire upstream platform. Cryptographic primitives use cryptography; no upstream application is called.

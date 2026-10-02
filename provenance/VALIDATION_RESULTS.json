@@ -1,26 +1,19 @@
 {
   "name": "JksTrustStoreReview",
-  "group": "identity",
+  "version": "0.1.2",
   "status": "PASS",
-  "version": "0.1.1",
   "test_count": 15,
-  "source_code_sha256": "d019c9c7fc872a93cbf456777a8325d6b77df04db5c2ba4303d667200bb6caa6",
-  "wheel_sha256": "a3a1ac25a0b8c6fdd54ae1d774029285e4a2e06a3eefd6b7149cdd5bb093093e",
-  "source_wheel_installed_bytes": "PASS",
-  "licenses": "PASS",
-  "dependency_check": "PASS",
-  "verified_utc": "2026-10-02T11:31:37.766755+00:00",
-  "wheel": "cvp_jks_truststore_review-0.1.1-py3-none-any.whl",
-  "verification": "Fresh per-project environment; wheel/source/installed runtime byte comparison; complete installed unittest suite; pip dependency check; license byte checks",
-  "runtime_platform": "Python 3.14 macOS arm64; remote Linux CI recorded separately",
+  "wheel_sha256": "5f11417d3e976afd8d30dd1102025031f3033d139f9a77e8a022dba2344e7aee",
+  "author": "dhtfish98",
+  "wheel": "cvp_jks_truststore_review-0.1.2-py3-none-any.whl",
+  "verification": "Rebuilt wheel, separate installed tests, package author metadata, runtime and retained third-party notice byte verification",
+  "record_kind": "Attribution patch verification",
   "application_qualification": "OPEN",
   "whole_upstream_equivalence": "OPEN",
-  "effective_deployed_protection": "OPEN",
-  "record_kind": "Current repaired release verification",
   "historical_initial_release_comparison": {
     "reference": "pyjks 20.0.0, no password integrity or decryption",
     "certificate_bytes_equal": true,
     "entry_count_equal": true
   },
-  "comparison_limit": "Initial fixed vectors only; see VALIDATION.md for additional source re-audit vectors. No full upstream equivalence."
+  "comparison_limit": "Initial fixed vectors only; not full upstream equivalence."
 }
