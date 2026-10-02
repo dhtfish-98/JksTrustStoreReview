@@ -1,0 +1,14 @@
+{
+  "project": "JksTrustStoreReview",
+  "status": "PASS",
+  "test_count": 12,
+  "wheel": "cvp_jks_truststore_review-0.1.0-py3-none-any.whl",
+  "wheel_sha256": "7b11b5c987ac8b4496b4c2259f696f9163b2318db86d9ce78aae2d8b9965994d",
+  "verification": "Local supported and malformed input tests, wheel build, separate install, imported package origin and CLI checks",
+  "reproduction": [
+    "python -m pip install .",
+    "python -m unittest discover -s tests -v",
+    "python -m pip wheel --no-deps --wheel-dir artifacts ."
+  ],
+  "limits": "Point-in-time engineering evidence only; CVP qualification and approval remain OPEN"
+}

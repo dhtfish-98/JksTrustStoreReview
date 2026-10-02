@@ -1,0 +1,5 @@
+{
+  "file": "examples/truststore.jks",
+  "expected_sha256": "8f77a9baee2ed7aa6af1c4c4527de2d9fa1f19648e173ae0333bc5a0dc0eb68e",
+  "now": "2026-10-02T07:30:30+00:00"
+}

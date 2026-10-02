@@ -1,0 +1,30 @@
+{
+  "source_repository": "https://github.com/kurtbrose/pyjks",
+  "source_commit": "0a046e54337a0c271ef5f7fdd9aa79c5ad350486",
+  "source_license": "MIT",
+  "source_archive_sha256": "f44bed4f728a35c8dbfe85f9d2f9b1db9b12e24481006da6c9944a5fa269f666",
+  "review_focus": [
+    "JKS v2 entry layout and modified Java UTF-8",
+    "public certificate inventory without password or private-entry processing"
+  ],
+  "complete_selected_files_retained_in_research_archive": true,
+  "research_archive_path": "identity/upstream/pyjks",
+  "selected_files": [
+    {
+      "path": "jks/jks.py",
+      "sha256": "f0e16cf1d01e1c9aaa3ceb77c17e3101683d395680716fce0e61655d28dad7ba",
+      "bytes": 34645,
+      "lines": 763,
+      "url": "https://github.com/kurtbrose/pyjks/blob/0a046e54337a0c271ef5f7fdd9aa79c5ad350486/jks/jks.py"
+    },
+    {
+      "path": "jks/util.py",
+      "sha256": "d6a486a5283e5c69a1ec840bbb1d9ee8b58b1160c3abe53e8cff4b6663dd35c7",
+      "bytes": 9765,
+      "lines": 244,
+      "url": "https://github.com/kurtbrose/pyjks/blob/0a046e54337a0c271ef5f7fdd9aa79c5ad350486/jks/util.py"
+    }
+  ],
+  "new_implementation_all_source_files_reviewed": true,
+  "whole_upstream_platform_equivalence": false
+}
