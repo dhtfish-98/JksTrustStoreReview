@@ -1,3 +1,15 @@
+# Current re-audit verification — 2026-10-02
+
+Version **0.1.1**: **15 installed unittest cases PASS**. A new wheel was built and installed into a fresh, separate environment. Runtime bytes in source, wheel and installed package matched. Dependency checks and retained license bytes passed.
+
+Wheel: `cvp_jks_truststore_review-0.1.1-py3-none-any.whl`. SHA-256: `a3a1ac25a0b8c6fdd54ae1d774029285e4a2e06a3eefd6b7149cdd5bb093093e`. Current machine-readable result: `REAUDIT_20261002.json`.
+
+Reproduce with `python -m pip install .`, `python -m unittest discover -s tests -v`, and `python -m pip wheel --no-deps --wheel-dir artifacts .`. Python 3.14/macOS was exercised locally. Exact-commit GitHub checks provide separate Linux evidence; native Windows and effective deployment remain OPEN. Project scope and unsupported input behavior remain defined in README.md.
+
+The records below are historical source/oracle/initial-installation evidence, retained for provenance. Earlier test counts, wheel hashes, versions and installation claims refer to the original release and do not validate this repaired release. Full upstream equivalence and CVP applicant qualification/approval remain OPEN.
+
+---
+
 # Validation
 
 Recorded on 2026-10-02 for the final selected implementation. 12 unittest cases passed. Runtime dependencies: cryptography==50.0.2; PyNaCl==1.6.2 for native Ed25519 public-point validation. Python 3.14 on macOS arm64 was exercised. Other operating systems and Python versions remain untested.
@@ -25,3 +37,7 @@ A wheel was built and installed into a separate per-project virtual environment 
 Every new production source file was reviewed, including file handling, parser bounds, trust binding, result semantics and unsupported branches. Fixed upstream source review boundaries are listed in ORIGIN.md and provenance/SOURCE_REVIEW.json. JKS v2 trusted-certificate-only stores. JCEKS/BKS/UBER/private/secret entries fail closed. No password, key decryption, credential export, or chain building. The legacy JKS SHA-1 password checksum remains unverified; external SHA-256 pinning does not prove CA policy correctness.
 
 Cryptographic PASS asserts only the explicit signed input contract where `verified=true`. Static audits retain `verified=false`. An authenticated revoked status can be FAIL with `complete=true`; an unsupported or invalid input is FAIL with `complete=false`. No repository count, package build, or synthetic test is used as evidence of CVP eligibility.
+
+## Source re-audit on 2026-10-02
+
+15 current source unittest cases passed after the independent re-audit. New regressions cover parsed floating-point overflow, missing/unusable safe local-file capabilities and privacy canaries, plus applicable context/URI, peer-null, legacy-switch and revocation-time counterexamples. This source evidence supersedes the earlier source test count. Rebuilt wheel installation and exact-commit CI for this revision are recorded separately by the publication owner; the previous installation record alone does not validate these edits.

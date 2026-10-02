@@ -1,28 +1,26 @@
 {
-  "recorded_date": "2026-10-02",
-  "project": "JksTrustStoreReview",
-  "source_code_sha256": "61f008f54045549337e3de0e356664dceee19f449b58b0cb172b1c4dbae3d409",
-  "wheel_filename": "cvp_jks_truststore_review-0.1.0-py3-none-any.whl",
-  "wheel_sha256": "7b11b5c987ac8b4496b4c2259f696f9163b2318db86d9ce78aae2d8b9965994d",
-  "build_setuptools": "84.0.0",
-  "runtime_dependencies": [
-    "cryptography==50.0.2",
-    "PyNaCl==1.6.2"
-  ],
-  "unit_test_count": 12,
-  "source_unit_tests": "PASS",
-  "independently_installed_unit_tests": "PASS",
-  "installed_source_bytes_equal": true,
-  "normal_tests_change_source_or_examples": false,
-  "installed_valid_cli_exit": 0,
-  "installed_invalid_cli_exit": 1,
-  "installed_network_disabled_result": "PASS",
-  "comparison_status": "PASS",
-  "comparison_detail": {
+  "name": "JksTrustStoreReview",
+  "group": "identity",
+  "status": "PASS",
+  "version": "0.1.1",
+  "test_count": 15,
+  "source_code_sha256": "d019c9c7fc872a93cbf456777a8325d6b77df04db5c2ba4303d667200bb6caa6",
+  "wheel_sha256": "a3a1ac25a0b8c6fdd54ae1d774029285e4a2e06a3eefd6b7149cdd5bb093093e",
+  "source_wheel_installed_bytes": "PASS",
+  "licenses": "PASS",
+  "dependency_check": "PASS",
+  "verified_utc": "2026-10-02T11:31:37.766755+00:00",
+  "wheel": "cvp_jks_truststore_review-0.1.1-py3-none-any.whl",
+  "verification": "Fresh per-project environment; wheel/source/installed runtime byte comparison; complete installed unittest suite; pip dependency check; license byte checks",
+  "runtime_platform": "Python 3.14 macOS arm64; remote Linux CI recorded separately",
+  "application_qualification": "OPEN",
+  "whole_upstream_equivalence": "OPEN",
+  "effective_deployed_protection": "OPEN",
+  "record_kind": "Current repaired release verification",
+  "historical_initial_release_comparison": {
     "reference": "pyjks 20.0.0, no password integrity or decryption",
     "certificate_bytes_equal": true,
     "entry_count_equal": true
   },
-  "not_whole_upstream_equivalence": true,
-  "CVP_eligibility": "OPEN"
+  "comparison_limit": "Initial fixed vectors only; see VALIDATION.md for additional source re-audit vectors. No full upstream equivalence."
 }

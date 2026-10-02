@@ -3,7 +3,7 @@ requires = ["setuptools>=77", "wheel"]
 build-backend = "setuptools.build_meta"
 [project]
 name = "cvp-jks-truststore-review"
-version = "0.1.0"
+version = "0.1.1"
 description = "Bounded JKS v2 public truststore inventory, Java modified UTF-8 decoding, certificate parsing and validity/CA/key policy, with explicit externally pinned file digest."
 requires-python = ">=3.11"
 license = "MIT"
