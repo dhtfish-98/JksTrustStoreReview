@@ -1,0 +1,30 @@
+{
+  "schema": "project-build-layout.v1",
+  "project": "JksTrustStoreReview",
+  "author": "dhtfish98",
+  "kind": "python",
+  "base_public_commit": "3e61a8781275a2605890ddaf4a44eed6656f8d63",
+  "restored_inputs": [
+    {
+      "original": "LICENSE",
+      "stored": "项目文档/LICENSE",
+      "sha256": "de926d6c22d9e061af6158b0f23146ce036bfb2a562f2f406acec2dc4bd8b298"
+    },
+    {
+      "original": "ORIGIN.md",
+      "stored": "项目文档/ORIGIN.md",
+      "sha256": "d61f4e563224544775d98c8e750f041d1e2d3cfdf81c208dd37b4b7a17837d21"
+    },
+    {
+      "original": "README.md",
+      "stored": "项目文档/README.md",
+      "sha256": "90a486495e610e7553410e056d1e46ce0e4dd58aadf574e63687a3ff18d30f6b"
+    },
+    {
+      "original": "VALIDATION.md",
+      "stored": "项目文档/VALIDATION.md",
+      "sha256": "30671054f5889583c8f9b55a80a5709cf0924d8030ce8771bf88c675796e5dbc"
+    }
+  ],
+  "platform_entries": []
+}
